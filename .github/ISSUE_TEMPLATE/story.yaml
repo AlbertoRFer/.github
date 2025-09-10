@@ -1,6 +1,6 @@
 name: "📖 User Story"
 description: "A high-level story that describes a user-facing feature or capability."
-title: "<title>"
+title: ""
 labels: ["User Story"]
 
 body:
@@ -12,26 +12,19 @@ body:
       placeholder: "As a <user>, I want <feature> so that <benefit>..."
 
   - type: textarea
+    id: additional-info
+    attributes:
+      label: ℹ️ Additional Information (optional)
+      description: Any additional context or notes related to this story.
+      placeholder: |
+        - Some additional information
+        - ...
+
+  - type: textarea
     id: acceptance-criteria
     attributes:
       label: ✅ Acceptance Criteria
       description: List the requirements that must be met for this story to be complete.
       placeholder: |
-        - [ ] Given <condition>, when <action>, then <outcome>
+        - [ ] Some acceptance criteria
         - [ ] ...
-
-  - type: textarea
-    id: tasks
-    attributes:
-      label: 🔗 Related Tasks
-      description: Link smaller tasks here (they will also be issues).
-      placeholder: |
-        - [ ] #123 (Task 1)
-        - [ ] #124 (Task 2)
-
-  - type: input
-    id: epic-link
-    attributes:
-      label: 📌 Epic (optional)
-      description: If this story belongs to an Epic, link it here.
-      placeholder: "#42"
