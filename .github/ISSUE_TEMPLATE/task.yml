@@ -1,7 +1,7 @@
 name: "🛠️ Task"
 description: "A smaller task that supports a story or epic."
-title: "[Task] <title>"
-labels: ["task"]
+title: "<Title>"
+labels: ["Task"]
 
 body:
   - type: textarea
