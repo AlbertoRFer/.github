@@ -1,6 +1,6 @@
 name: "📖 User Story"
 description: "A high-level story that describes a user-facing feature or capability."
-title: ""
+title: "[User Story]"
 labels: ["User Story"]
 
 body:

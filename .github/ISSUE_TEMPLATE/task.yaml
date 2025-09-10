@@ -1,6 +1,6 @@
 name: "🛠️ Task"
 description: "A smaller task that supports a story or epic."
-title: ""
+title: "[Task]"
 labels: ["Task"]
 
 body:
