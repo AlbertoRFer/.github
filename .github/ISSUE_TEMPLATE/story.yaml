@@ -1,7 +1,7 @@
-name: "📖 Story"
+name: "📖 User Story"
 description: "A high-level story that describes a user-facing feature or capability."
-title: "[Story] <title>"
-labels: ["story"]
+title: "<title>"
+labels: ["User Story"]
 
 body:
   - type: textarea
