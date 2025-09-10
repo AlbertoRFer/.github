@@ -2,8 +2,6 @@ name: "📖 Story"
 description: "A high-level story that describes a user-facing feature or capability."
 title: "[Story] <title>"
 labels: ["story"]
-projects: ["your-org/your-project"] # 👈 link to your project automatically
-assignees: []
 
 body:
   - type: textarea
