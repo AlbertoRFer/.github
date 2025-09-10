@@ -1,0 +1,29 @@
+name: "🛠️ Task"
+description: "A smaller task that supports a story or epic."
+title: "[Task] <title>"
+labels: ["task"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description
+      description: What needs to be done? Provide enough detail for implementation.
+      placeholder: "Implement X, update Y, fix Z..."
+
+  - type: input
+    id: story-link
+    attributes:
+      label: 🔗 Story Link
+      description: Link to the story issue this task belongs to.
+      placeholder: "#123"
+
+  - type: textarea
+    id: definition-of-done
+    attributes:
+      label: ✅ Definition of Done
+      description: What conditions must be met for this task to be considered complete?
+      placeholder: |
+        - [ ] Code implemented
+        - [ ] Tests written
+        - [ ] Documentation updated
