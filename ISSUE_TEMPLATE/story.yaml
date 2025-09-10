@@ -1,0 +1,39 @@
+name: "📖 Story"
+description: "A high-level story that describes a user-facing feature or capability."
+title: "[Story] <title>"
+labels: ["story"]
+projects: ["your-org/your-project"] # 👈 link to your project automatically
+assignees: []
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description
+      description: What is the user story? What problem does it solve?
+      placeholder: "As a <user>, I want <feature> so that <benefit>..."
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: ✅ Acceptance Criteria
+      description: List the requirements that must be met for this story to be complete.
+      placeholder: |
+        - [ ] Given <condition>, when <action>, then <outcome>
+        - [ ] ...
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: 🔗 Related Tasks
+      description: Link smaller tasks here (they will also be issues).
+      placeholder: |
+        - [ ] #123 (Task 1)
+        - [ ] #124 (Task 2)
+
+  - type: input
+    id: epic-link
+    attributes:
+      label: 📌 Epic (optional)
+      description: If this story belongs to an Epic, link it here.
+      placeholder: "#42"
